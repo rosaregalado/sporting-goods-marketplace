@@ -1,0 +1,92 @@
+body {
+  border: 30px solid darkseagreen;
+  border-top: unset;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  height: 130px;
+  background-color: darkseagreen;
+}
+header h1 {
+  padding-left: 20px;
+  font-weight: bolder;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: baseline;
+  font-size: 35px;
+}
+header a:hover {
+  background-color: white;
+}
+header a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  font-size: 40px;
+  align-items: center;
+}
+.search-bar {
+  padding: 20px;
+  font-size: 30px;
+}
+.search-button {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  border: black 3px solid;
+  padding: 10px;
+}
+.display-search {
+  padding: 30px;
+}
+.items {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  justify-content: center;
+  padding: 30px;
+}
+img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "a b c d";
+  width: 300px;
+  height: 300px;
+}
+button {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: darkseagreen;
+  border: black 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+.account button {
+  background-color: black;
+  color: white;
+}
+.items p:nth-child(2) {
+  font-size: 20px;
+}
+.items button:hover {
+  background-color: darkseagreen;
+  color: black;
+}
+footer {
+  padding: 40px;
+}
