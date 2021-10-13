@@ -3,9 +3,10 @@
   <head>
     <title>Sporting Goods Marketplace</title>
     <link rel="stylesheet" href="sporting-goods.css"></style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
       <h1>Sporting Goods Marketplace</h1>
       <nav>
         <ul>
@@ -16,23 +17,34 @@
     </header>
     <div class="display-search" id="display-search">
       <h2>What do you want to find today?</h2>
-      <input class="search-bar" type="text" placeholder="Search..">
+      <input class="search-bar" type="text" placeholder="Search item..">
       <button class="search-button" type="submit">Enter</button>
     </div>
 
-    <div class="items" id="items">
+    <div class="items" id="items" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <!-- Display grid of sale items-->
-    </div>
-
-    <div class="contact-popup">
-
+      <!-- <a href="#" id="contact">TEST</a> -->
+      <div id="contact-popup">
+        <h2>Send message to seller</h2>
+        <label>Message: </label>
+        <input type="text">
+        <button class="send-message" type="submit">Send</button>
+      </div>
     </div>
     
+    
+    
 
-    <footer class="account">
+    <section class="account">
       <button type="submit">Sign In</button>
       <button type="submit">Create Account</button>
-    </footer>
+    </section>
     <script src="sporting-goods.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+      AOS.init(); 
+   </script>
   </body>
 </html>

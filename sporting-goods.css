@@ -48,16 +48,21 @@ h2 {
   padding: 10px;
 }
 .display-search {
-  padding: 30px;
+  padding-left: 35%;
+  margin: 70px;
 }
 .items {
   width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1em;
+  grid-gap: 2em;
   justify-content: center;
   padding: 30px;
+}
+.item {
+  border: 5px solid darkseagreen;
+  padding: 15px;
 }
 img {
   display: grid;
@@ -87,6 +92,44 @@ button {
   background-color: darkseagreen;
   color: black;
 }
-footer {
+section {
   padding: 40px;
+}
+
+#contact-popup {
+  visibility: hidden;
+  position: absolute;
+  background: darkseagreen;
+  border: 2px solid #3c3c3c;
+  color: black;
+  z-index: 100;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+#contact-popup label {
+  font-size: 30px;
+}
+#contact-popup input {
+  height: 100px;
+  width: 200px;
+}
+.send-message {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: black;
+  border: black 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  top: 50%;
+  right: 50%;
+}
+.dimScreen {
+  background: #000;
+  position: absolute;
+  opacity: .6;
+  top: 0;
+  z-index: auto;
 }
