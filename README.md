@@ -3,5 +3,4 @@ Sporting Goods Marketplace
 
 Code implementation:
 
-- import inventory 
-- iterate over inventory 
+- import inventory file

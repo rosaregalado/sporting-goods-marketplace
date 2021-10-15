@@ -51,6 +51,7 @@ h2 {
   padding-left: 35%;
   margin: 70px;
 }
+
 .items {
   width: 80%;
   margin: auto;
@@ -115,10 +116,11 @@ section {
 .contact-popup input {
   height: 100px;
   width: 200px;
+  font-size: 30px;
 }
 .send-message {
   color: white;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
   background-color: black;
   border: black 3px solid;

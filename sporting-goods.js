@@ -30,7 +30,7 @@ const renderInventory = (filter) => {
         description.innerText = inventory[i].description;
         container.appendChild(description);
         //style description element
-        description.style.fontSize = "20px";
+        description.style.fontSize = "40px";
       
         //create price element
         const price = document.createElement('price');

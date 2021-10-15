@@ -75,7 +75,7 @@ const inventory = [{
   "image": "images/air-hockey-table.jpeg",
   "description": "Heavy duty air hockey game table. 99in long and 51in wide.",
   "price": "$800",
-  "keywords": ["commercial", "air hockey", "table"]
+  "keywords": ["commercial", "air hockey table", "table"]
 }, {
   "id": 12,
   "name": 'Skateboard wheels',
