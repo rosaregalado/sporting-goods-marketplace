@@ -118,6 +118,10 @@ section {
   width: 200px;
   font-size: 30px;
 }
+.contact-popup a {
+  font-size: 30px;
+  color: blue;
+}
 .send-message {
   color: white;
   font-size: 25px;
